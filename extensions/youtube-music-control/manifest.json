@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Music Only",
+  "version": "1.0.0",
+  "description": "Toggle YouTube Music without interrupting videos in other tabs.",
+  "permissions": ["scripting", "nativeMessaging"],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtSjaayzlgsE8zyU4BX2RW/B/ClqrnLZtpwXQm4TsyWfu7GP/rK8pl7XDPAx+2betoSwdfGrDxCZ0FCPDJDlkzD3APyhUgMrmI+LqqviVqKhmJw79IwM/8V0uARL0J/WuLu40/o05JeNGeDH1LwiYfvF+yKC/UJdxpaq/JrsXnY9LvcBz7yk8Vfk0bBxbTBi5FRTJ5TDvdMLUZj30000s1t82PXu6hyxMdoXEef+AQn9I4ENp7FpBTeqMHDLT6r+JlxGK67+G29knNXk1q74NB+kaK1y7VITXldhWjxpIpqA7uggy32Adu4qx6g5WRMGFkP7bIDXUv8RYb/u+QGD1+QIDAQAB",
+  "host_permissions": ["https://music.youtube.com/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Play / pause YouTube Music only (Win+Shift+K)"}
+}
